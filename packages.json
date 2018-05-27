@@ -162,6 +162,21 @@
     "repo": "https://github.com/slamdata/purescript-avar.git",
     "version": "v2.0.1"
   },
+  "b64": {
+    "dependencies": [
+      "prelude",
+      "exceptions",
+      "arraybuffer-types",
+      "stringutils",
+      "either",
+      "functions",
+      "encoding",
+      "typedarray",
+      "partial"
+    ],
+    "repo": "https://github.com/menelaos/purescript-b64.git",
+    "version": "v0.0.4"
+  },
   "behaviors": {
     "dependencies": [
       "prelude",
@@ -368,18 +383,18 @@
     "repo": "https://github.com/paf31/purescript-day.git",
     "version": "v9.2.0"
   },
-  "decimals": {
-    "dependencies": [
-      "maybe"
-    ],
-    "repo": "https://github.com/sharkdp/purescript-decimals.git",
-    "version": "v3.0.0"
-  },
   "debug": {
     "dependencies": [
       "prelude"
     ],
     "repo": "https://github.com/garyb/purescript-debug.git",
+    "version": "v3.0.0"
+  },
+  "decimals": {
+    "dependencies": [
+      "maybe"
+    ],
+    "repo": "https://github.com/sharkdp/purescript-decimals.git",
     "version": "v3.0.0"
   },
   "distributions": {
@@ -2208,6 +2223,16 @@
       "eff"
     ],
     "repo": "https://github.com/purescript/purescript-type-equality.git",
+    "version": "v2.1.0"
+  },
+  "typedarray": {
+    "dependencies": [
+      "arraybuffer-types",
+      "functions",
+      "maybe",
+      "prelude"
+    ],
+    "repo": "git://github.com/jutaro/purescript-typedarray.git",
     "version": "v2.1.0"
   },
   "typelevel": {
