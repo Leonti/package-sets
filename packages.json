@@ -982,6 +982,15 @@
     "repo": "https://github.com/garyb/purescript-indexed-monad.git",
     "version": "v0.3.0"
   },
+  "clipboard": {
+    "dependencies": [
+      "prelude",
+      "dom",
+      "css"
+    ],
+    "repo": "https://github.com/slamdata/purescript-clipboard",
+    "version": "v0.3.0"
+  },
   "inject": {
     "dependencies": [
       "functors"
